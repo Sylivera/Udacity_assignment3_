@@ -2,7 +2,7 @@
 
 ## Introduction
 
-For this project, you will analyze the interactions that users have with articles on the IBM Watson Studio platform, and make recommendations to them about new articles you think they will like. The goal is to build a recommendation engine that helps users discover content that is relevant and interesting to them. Below, you can see an example of what the dashboard could look like displaying articles on the IBM Watson Studio platform.
+For this project, we will analyze the interactions that users have with articles on the IBM Watson Studio platform, and make recommendations to them about new articles you think they will like. The goal is to build a recommendation engine that helps users discover content that is relevant and interesting to them. Below, you can see an example of what the dashboard could look like displaying articles on the IBM Watson Studio platform.
 
 ![Dashboard Example](path/to/dashboard_example_image.png)
 
@@ -11,9 +11,7 @@ For this project, you will analyze the interactions that users have with article
 - [Data](#data)
 - [Project Structure](#project-structure)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Project Overview
 
@@ -43,17 +41,7 @@ The project repository is structured as follows:
 │   ├── articles_community.csv
 │   └── articles.csv
 ├── notebooks
-│   ├── exploratory_data_analysis.ipynb
-│   ├── rank_based_recommendations.ipynb
-│   ├── user_user_collaborative_filtering.ipynb
-│   ├── content_based_recommendations.ipynb
-│   └── matrix_factorization.ipynb
-├── src
-│   ├── data_preprocessing.py
-│   ├── rank_based.py
-│   ├── user_user_collaborative.py
-│   ├── content_based.py
-│   └── matrix_factorization.py
+│   ├── Recommendations_with_IBM.ipynb
 ├── README.md
 └── requirements.txt
 ```
@@ -66,33 +54,11 @@ To install the necessary dependencies, run:
 pip install -r requirements.txt
 ```
 
-## Usage
-
-To run the project, follow these steps:
-
-1. **Data Preprocessing**: Prepare the data by running the `data_preprocessing.py` script.
-   ```bash
-   python src/data_preprocessing.py
-   ```
-
-2. **Exploratory Data Analysis**: Understand the dataset by running the `exploratory_data_analysis.ipynb` notebook.
-
-3. **Recommendation Algorithms**: Implement and test different recommendation algorithms by running the corresponding notebooks:
-   - Rank-Based Recommendations: `rank_based_recommendations.ipynb`
-   - User-User Collaborative Filtering: `user_user_collaborative_filtering.ipynb`
-   - Content-Based Recommendations: `content_based_recommendations.ipynb`
-   - Matrix Factorization: `matrix_factorization.ipynb`
-
-4. **Generate Recommendations**: Use the implemented algorithms to generate recommendations for users.
-
 ## Contributing
 
 Contributions are welcome! If you have any improvements or suggestions, please submit a pull request or open an issue.
 
-## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
 
-Happy coding! If you have any questions or need further assistance, feel free to reach out.
