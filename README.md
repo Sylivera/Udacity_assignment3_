@@ -4,8 +4,6 @@
 
 For this project, we will analyze the interactions that users have with articles on the IBM Watson Studio platform, and make recommendations to them about new articles you think they will like. The goal is to build a recommendation engine that helps users discover content that is relevant and interesting to them. Below, you can see an example of what the dashboard could look like displaying articles on the IBM Watson Studio platform.
 
-![Dashboard Example](path/to/dashboard_example_image.png)
-
 ## Table of Contents
 - [Project Overview](#project-overview)
 - [Data](#data)
